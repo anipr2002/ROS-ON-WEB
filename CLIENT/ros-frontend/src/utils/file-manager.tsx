@@ -13,7 +13,7 @@ interface CommonProps {
 }
 
 export interface File extends CommonProps {
-  content: string; // 文件内容
+  content: string;
 }
 
 export interface Directory extends CommonProps {
